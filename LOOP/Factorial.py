@@ -1,0 +1,10 @@
+#Factorial of a given Number.
+
+num = int(input("Enter a number: "))
+factorial = 1
+
+for i in range(1, num+1):
+    factorial = factorial * i
+
+# print the final result
+print("The factorial of", num, "is", factorial)
